@@ -1,0 +1,15 @@
+<Page navigatingTo="onNavigatingTo">
+<ActionBar title="Bio" icon="" />
+    <ScrollView>
+        <StackLayout class="p-4 bg-white">
+        <Image
+        src="https://art.nativescript.org/logo/export/NativeScript_Logo_Blue_White.png"
+        stretch="aspectFill"
+        className="w-32 rounded-full h-32"
+        />         
+        <Label text="Mikel Ridgeway" class="text-2xl text-center text-gray-900 mt-10 mb-10" textWrap="true" />
+        <Label text="Bio" class="text-xl text-center text-gray-900 mb-20" textWrap="true" />
+        <Button text="Home" tap="goToHome" class="-primary rounded-lg h-10 w-32 mt-10" />
+       </StackLayout>
+    </ScrollView>
+</Page>
